@@ -1,0 +1,55 @@
+.ml-contact-form {
+  background-image: url("/backgrounds/blured-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 804px;
+  width: 100%;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml-form-style-2 {
+  input,
+  textarea,
+  #textarea {
+    background: transparent;
+    border-bottom: 1px solid #5bbddb;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    z-index: 5;
+
+    &::placeholder {
+      color: white;
+    }
+
+    &:focus {
+      outline: none !important;
+    }
+  }
+}
+
+.ml-stroke--text {
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #5bbddb;
+}
+
+// smaller screens
+@media (max-width: 768px) {
+  .ml-contact-form {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .contact-us-svg {
+    display: none;
+  }
+}

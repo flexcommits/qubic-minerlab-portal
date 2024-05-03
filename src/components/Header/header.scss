@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.header-menu-items {
+  height: 65px;
+
+  ul {
+    @apply h-20;
+
+    li {
+      @apply h-20;
+    }
+  }
+}
+
+.glass-css {
+  background: #21274899;
+  box-shadow: 0 4px 30px rgba(104, 104, 104, 0.1);
+  backdrop-filter: blur(8.1px);
+  -webkit-backdrop-filter: blur(8.1px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

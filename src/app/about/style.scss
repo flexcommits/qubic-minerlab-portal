@@ -1,0 +1,29 @@
+.about-section-one {
+  background-image: url("/backgrounds/contact-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  width: 100%;
+}
+
+.about-section-two {
+  background-image: url("/backgrounds/science-fiction-sky.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 769px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ml-stroke--text {
+  color: transparent;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #5bbddb;
+}

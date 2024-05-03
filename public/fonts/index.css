@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Chopin Light"; /* Replace with the actual font name */
+  src: url("./Chopin-Light.ttf") format("truetype"); /* Specify TTF format */
+}
+
+/* create font face of of all fonts in the directory of PixelifySans */
+@font-face {
+  font-family: "PixelifySans Bold"; /* Replace with the actual font name */
+  src: url("./PixelifySans/PixelifySans-Bold.ttf") format("truetype"); /* Specify TTF format */
+}
+
+@font-face {
+  font-family: "PixelifySans Medium"; /* Replace with the actual font name */
+  src: url("./PixelifySans/PixelifySans-Medium.ttf") format("truetype"); /* Specify TTF format */
+}
+
+@font-face {
+  font-family: "Pixelify Sans"; /* Replace with the actual font name */
+  src: url("./PixelifySans/PixelifySans-Regular.ttf") format("truetype"); /* Specify TTF format */
+}
+
+.chopin-light {
+  font-family: "Chopin Light" !important; /* Use the font-family name */
+}
+
+.pixelify-sans-bold {
+  font-family: "PixelifySans Bold" !important; /* Use the font-family name */
+}
+
+.pixelify-sans-light {
+  font-family: "PixelifySans Light" !important; /* Use the font-family name */
+}
+
+.pixelify-sans-reg {
+  font-family: "Pixelify Sans" !important; /* Use the font-family name */
+}

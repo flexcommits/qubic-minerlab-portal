@@ -1,0 +1,27 @@
+.primary-btn {
+  background: radial-gradient(
+    120.35% 144.92% at 50.19% 0%,
+    #265b67 0%,
+    #0b0913 48.2%
+  );
+  height: 59px;
+  width: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.16px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+
+  // add click effect
+
+  &:hover {
+    background: radial-gradient(
+      120.35% 144.92% at 50.19% 0%,
+      #0b0913 0%,
+      #265b67 48.2%
+    );
+    border-radius: 5px;
+  }
+}
